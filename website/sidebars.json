@@ -1,0 +1,44 @@
+{
+  "docs": {
+    "Meu Bridge": ["meu-bridge"]
+    ,
+    "TESTE":["meu-bridge",{"type": "subcategory",
+      "label": "Autenticação",
+      "ids": ["autenticacao/login","autenticacao/logout", "autenticacao/perfis"]
+    }],
+    "Documentação": ["meu-bridge",{
+      "type": "subcategory",
+      "label": "Autenticação",
+      "ids": ["autenticacao/login","autenticacao/logout", "autenticacao/perfis"]
+    },{
+      "type": "subcategory",
+      "label": "Registro diário",
+      "ids": ["registro-diario/registro-dairio","registro-diario/semana-atual","registro-diario/registros-anteriores", "registro-diario/cadastrar-obs","registro-diario/cadastrar-justificativa"]
+    },{
+      "type": "subcategory",
+      "label": "Horário semanal",
+      "ids": ["horario-semanal/horario-semanal","horario-semanal/cadastrar-horario-semanal","horario-semanal/visualizar-horario-atual", "horario-semanal/visualizar-horarios-anteriores"]
+    },{
+      "type": "subcategory",
+      "label": "Férias",
+      "ids": ["ferias/ferias","ferias/cadastrar-ferias", "ferias/lista-ferias"]
+    },{
+      "type": "subcategory",
+      "label": "Colaboradores",
+      "ids": ["colaboradores/colaboradores","colaboradores/colaboradores-horario-semanal","colaboradores/ferias", "colaboradores/visualizacao-colaborador"]
+    },{
+      "type": "subcategory",
+      "label": "Relatórios",
+      "ids": ["relatorios/relatorio","relatorios/relatorio-banco-horas", "relatorios/relatorio-ferias"]
+    },{
+      "type": "subcategory",
+      "label": "Geral",
+      "ids": ["geral/cabecalho","geral/dark-mode", {
+        "type": "subcategory",
+        "label": "Mensagens",
+        "ids": ["geral/mensagens/mensagem","geral/mensagens/mensagem-alerta", "geral/mensagens/mensagem-hint", "geral/mensagens/mensagem-sistema"]
+      }]
+    }]
+  }
+  
+}
